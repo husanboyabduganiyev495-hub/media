@@ -475,7 +475,6 @@ body {
     line-height: 1.1;
 }
 
-/* Events Grid Layout */
 .events-grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -491,7 +490,6 @@ body {
     background-position: center;
 }
 
-/* Grid joylashuvi: rasmga qarab */
 .event-card.large:nth-child(1) {
     grid-column: span 3;
 }
@@ -663,7 +661,7 @@ body {
     color: var(--green-primary);
 }
 
-@media (max-width: 992px) {
+@media (max-width: 400px) {
     .contacts-container {
         flex-direction: column;
     }
@@ -672,4 +670,7 @@ body {
         grid-template-columns: 1fr 1fr;
     }
 }
+
+
+
 
